@@ -17,7 +17,7 @@
    yarn install
    ```
 3. Start the application
-   `sh yarn dev `
+   `yarn dev`
    The above command will start the application on [http://localhost:3000/](http://localhost:3000).
 
 ## Overview

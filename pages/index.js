@@ -13,15 +13,15 @@ export default function Home() {
         <div className="">
           <div>
             <h1 className="md:text-4xl lg:text-4xl text-2xl font-mono md:mb-6 font-medium leading-tight tracking-tight dark:text-gray-100 sm:leading-10 md:leading-14">
-              Hey, I'm Khabibur Rokhman 👋
+              Hey, I&apos;m Khabibur Rokhman 👋
             </h1>
           </div>
 
           <p className="lg:text-lg md:text-lg text-sm font-mono mt-3 mb-6 md:mb-8 dark:text-cool-gray-400">
-            I'm a Full Stack Developer based on Rembang.
+            I&apos;m a Full Stack Developer based on Rembang.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-mono mt-3 md:mb-8 dark:text-cool-gray-400">
-            This is my digital garden, where I write about the things I'm working on and share what I've learned.
+            This is my digital garden, where I write about the things I&apos;m working on and share what I&apos;ve learned.
           </p>
         </div>
 

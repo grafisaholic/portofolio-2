@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const postItemList = ({ title, description, slug, date }) => {
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/blog/${slug}`} passHref>
       <div className="border border-gray-400 hover:border-gray-600 p-4 rounded-lg m-2 hover:shadow-md cursor-pointer">
         <div className="flex justify-between">
           <time className="text-gray-500 text-sm lg:text-sm">{date}</time>

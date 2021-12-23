@@ -15,6 +15,7 @@ const Footer = () => {
                 aria-label={site.label}
                 href={site.url} 
                 target="_blank" 
+                rel="noreferrer"
                 className={site.class}
               >
                 {site.icon}

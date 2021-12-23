@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { WindmillContext } from '@windmill/react-ui';
 import { Transition } from '@headlessui/react';
 
@@ -24,8 +25,8 @@ const Navbar = () => {
                 role="button"
                 tabIndex={0}
               >
-                <Link href='/'>
-                  <img 
+                <Link href='/' passHref>
+                  <Image
                     className="w-10 inline rounded-full"
                     src="https://raw.githubusercontent.com/grafisaholic/grafisaholic.com/main/public/assets/avatar.png"
                     alt="Profile Icon"

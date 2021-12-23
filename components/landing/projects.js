@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 
 const ProjectItem = (props) => {
   const { link, description, title, conver, technology } = props;
@@ -7,8 +7,8 @@ const ProjectItem = (props) => {
     <section className="flex w-full mb-4">
       <div className="hidden md:block shadow border border-gray-400 hover:border-gray-600 w-4/5 h-72 rounded-lg overflow-hidden relative">
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <img 
-            alt="title 1"
+          <Image
+            alt={title}
             src="https://mahmad-me.vercel.app/assets/images/projects/peterpitch.png"
             className="block absolute h-full inset-0 object-cover xl:object-top rounded-lg opacity-60 hover:opacity-95"
           />
@@ -20,7 +20,7 @@ const ProjectItem = (props) => {
           <a 
             href={link}
             target="_blank"
-            rel="nopener noferrer"
+            rel="noreferrer"
             className="text-right"
           >
             <h1
